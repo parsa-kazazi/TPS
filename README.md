@@ -6,4 +6,4 @@
 <p>Works on all operating systems</p>
 <p>For legal activities only</p>
 <br>
-<p>How to run : <pre>python3 port-scanner.py<pre><p>
+<p>How to run : <pre>python3 tps.py<pre><p>
