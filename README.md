@@ -1,4 +1,4 @@
-#TPS
+<h2>TPS</h2>
 <p>Quick and easy TCP Port Scanner</p>
 <p>Coded by parsa kazazi</pre>
 <p>@parsa_kazazi (Github, Twitter)<p>
