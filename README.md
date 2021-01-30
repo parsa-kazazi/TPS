@@ -6,4 +6,9 @@
 <p>Works on all operating systems</p>
 <p>For legal activities only</p>
 <br>
-<p>How to use : <pre>git clone https://github.com/parsa-kazazi/TPS</pre><pre>cd TPS</pre><pre>python3 tps.py<pre><p>
+<p>How to use : </p>
+<pre>
+> git clone https://github.com/parsa-kazazi/TPS
+> cd TPS
+> python3 tps.py
+</pre>
