@@ -1,8 +1,8 @@
-<pre>Quick and easy network port scanner</pre>
-<pre>Coded by parsa kazazi</pre>
-<pre>@parsa_kazazi (Github, Twitter)<pre>
+<p>Quick and easy network port scanner</p>
+<p>Coded by parsa kazazi</pre>
+<p>@parsa_kazazi (Github, Twitter)<p>
 <br>
-<pre>Works on all operating systems</pre>
-<pre>For legal activities only</pre>
+<p>Works on all operating systems</p>
+<p>For legal activities only</p>
 <br>
-<pre>How to run : python3 port-scanner.py<pre>
+<p>How to run : <pre>python3 port-scanner.py<pre><p>
