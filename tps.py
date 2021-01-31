@@ -82,7 +82,7 @@ if (__name__ == "__main__"):
                     try:
                         service_name = socket.getservbyport(port)
                     except OSError:
-                        # if port service name is not known
+                        # if the port service name was unknown
                         service_name = "unknown service"
                     print(good + "Port " + str(port) + " " + service_name + " : is open")
                     open_ports += 1
