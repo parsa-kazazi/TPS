@@ -11,8 +11,8 @@ Version: 1.0
 """
 
 import sys
-import socket
 import os
+import socket
 import time
 
 os_name = os.name
@@ -36,10 +36,10 @@ print("""
 
 """)
 
-question = str("\033[94m[?]\033[0m ")
+put = str("\033[94m[*]\033[0m ")
 info = str("\033[94m[i]\033[0m ")
 good = str("\033[92m[+]\033[0m ")
-error = str("\033[91m[-]\033[0m ")
+error = str("\033[91m[!]\033[0m ")
 
 def is_port_open(ip: str, port: int):
     # scan the one port
@@ -55,9 +55,7 @@ def is_port_open(ip: str, port: int):
     sock.close() # close the connection
 
 if (__name__ == "__main__"):
-    address = input(question + "Target Domain or IP address : ")
-    time.sleep(2)
-    print(info + "Checking connection to " + address + " ...")
+    address = input(put + "Domain or IP address: ")
     time.sleep(2)
     try:
         ip = socket.gethostbyname(address) # get target IP address
@@ -70,7 +68,7 @@ if (__name__ == "__main__"):
     else:
         print(good + "Connected")
         time.sleep(1)
-        print(info + "Host to scan : " + ip)
+        print(info + "Host to scan: " + ip)
         print(info + "Scanning. please wait...\n")
         time.sleep(2)
         port = 0
