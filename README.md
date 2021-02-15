@@ -11,5 +11,5 @@
 <pre>
 > git clone https://github.com/parsa-kazazi/TPS
 > cd TPS
-> python3 tps.py
+> python3 tps.py <domain or ip>
 </pre>
